@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-    title: "Agntix - 404 Not Found Page",
+    title: "ARK - 404 Not Found Page",
 };
 
 export default function NotFound() {
