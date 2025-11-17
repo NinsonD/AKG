@@ -8,7 +8,7 @@ import ContactUsAbout from '@/components/about/ContactUsAbout';
 import ContactUsArea from '@/components/contacts/ContactUsArea';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import ContactUsHero from '@/components/contacts/ContactUsHero';
-import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
+import CommonHeader from '@/layouts/headers/CommonHeader';
 
 const ContactUsMain = () => {
     return (
@@ -20,7 +20,7 @@ const ContactUsMain = () => {
                     </div>
                     {/* Global Components */}
                     <BackToTop />
-                    <InnerPageHeader />
+                    <CommonHeader spacingCls="mt-40 header-black-style" />
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
                             {/* Main Content Sections */}
@@ -35,6 +35,7 @@ const ContactUsMain = () => {
                     </div>
                 </AnimationWrapper>
             </CursorAndBackgroundProvider>
+            {/* CommonHeader handles mobile/desktop offcanvas */}
         </ScrollSmoothProvider>
     );
 };

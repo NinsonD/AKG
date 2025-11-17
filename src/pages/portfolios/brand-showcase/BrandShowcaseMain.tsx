@@ -1,3 +1,4 @@
+"use client";
 import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
 import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper';
 import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
@@ -5,9 +6,10 @@ import BrandShowcaseHero from '@/components/hero-banner/BrandShowcaseHero';
 import CreativeAgencyFooter from '@/layouts/footers/CreativeAgencyFooter';
 import BrandShowcaseBrand from '@/components/brand/BrandShowcaseBrand';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
-import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
+import CommonHeader from '@/layouts/headers/CommonHeader';
 
 const PortfolioColTwoMain = () => {
+
     return (
         <ScrollSmoothProvider>
             <CursorAndBackgroundProvider bgColor='#fff'>
@@ -17,7 +19,7 @@ const PortfolioColTwoMain = () => {
                     </div>
                     {/* Global Components */}
                     <BackToTop />
-                    <InnerPageHeader />
+                    <CommonHeader spacingCls="mt-40 header-black-style" />
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
                             {/* Main Content Sections */}
@@ -30,6 +32,7 @@ const PortfolioColTwoMain = () => {
                     </div>
                 </AnimationWrapper>
             </CursorAndBackgroundProvider>
+            {/* CommonHeader handles mobile/desktop offcanvas */}
         </ScrollSmoothProvider>
     );
 };

@@ -1,6 +1,7 @@
 "use client"
 import MobileMenus from '@/layouts/subComponents/MobileMenus';
 import logoWhite from "../../../public/assets/img/logo/logo-white.png";
+import logoBlack from '../../../public/assets/img/logo/logo-black.png';
 import MobileOffcanvas from '@/components/offcanvas/MobileOffcanvas';
 import { useState } from 'react';
 import Image from 'next/image';
@@ -8,6 +9,10 @@ import Link from 'next/link';
 
 const CommonHeader = ({ spacingCls = "mt-40" }) => {
     const [openOffCanvas, setOpenOffCanvas] = useState(false);
+
+    // If the header container includes a light background variant, use the dark logo
+    const useDarkLogo = typeof spacingCls === 'string' && spacingCls.indexOf('header-black-style') !== -1;
+    const logoSrc = useDarkLogo ? logoBlack : logoWhite;
 
     return (
         <>
@@ -17,8 +22,8 @@ const CommonHeader = ({ spacingCls = "mt-40" }) => {
                         <div className="col-6">
                             <div className="tp-header-logo">
                                 <Link href="/">
-                                    <Image width={140} src={logoWhite} alt="logo-white" />
-                                </Link>
+                                        <Image width={140} src={logoSrc} alt="logo" />
+                                    </Link>
                             </div>
                         </div>
                         <div className="col-6">
