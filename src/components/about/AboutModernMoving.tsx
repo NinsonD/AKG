@@ -19,8 +19,7 @@ const AboutModernMoving = () => {
                         </div>
                         <div className="des-about-text text-center">
                             <p>
-                                With over <span>10 years</span> of experience as a versatile Front-End and Full-Stack
-                                Developer, I excel in crafting a wide range of solutions, from dynamic <span>web applications and interactive configurators</span> to robust <span>backend automation software</span>, ensuring innovative and effective outcomes for any project.
+                                To continuously meet the growing demands of the labeling and packaging industry through <span>innovation, technology, and customer-focused service.</span> We are committed to delivering <span>end-to-end solutions</span> with the highest quality standards and fastest turnaround times in the UAE.
                             </p>
                         </div>
                     </div>

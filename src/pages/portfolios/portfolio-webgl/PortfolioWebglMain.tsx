@@ -30,7 +30,7 @@ const PortfolioWebglMain = () => {
 
     return (
         <CursorAndBackgroundProvider bgColor='#000'>
-            <div id="magic-cursor" className="cursor-white-bg">
+            <div id="magic-cursor" className="cursor-bg-blue">
                 <div id="ball"></div>
             </div>
             {/* Global Components */}

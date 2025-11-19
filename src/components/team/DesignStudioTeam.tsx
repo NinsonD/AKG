@@ -22,7 +22,7 @@ const DesignStudioTeam: React.FC<DesignStudioTeamProps> = ({
         <div className="row">
           <div className="col-xl-12">
             <div className={`des-team-wrap ${wrapClass}`}>
-              {teamMembersData.slice(0, 5).map((member, index) => (
+              {teamMembersData.slice(0, 10).map((member, index) => (
                 <DesignStudioTeamCard
                   key={member.id}
                   member={member}

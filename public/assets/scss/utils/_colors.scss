@@ -27,7 +27,7 @@ $colors: (
         'red': #FF4851,
         'red-2': #FF481F,
         'red-3': #FF5722,
-        'blue': #7463FF,
+        'blue': #0267b3,
         'brown': #453030,
     ),
     'grey': (
@@ -48,12 +48,22 @@ $colors: (
         'body':#2e2d2d,
     ),
     'theme': (
-        'green': #A0FF27,
-        'pink': #EC6FD5,
-        'yellow': #FFB701,
+        'green': #0267b3,
+        'pink': #2079bd,
+        'yellow': #408dc6,
     ),
     'border': (
         '1': #EAEBED,
         '2': #e7e7e7,
+    ),
+    'primary': (
+        'endeavour': #0267b3,
+        'link-water': #deebf5,
+        'danube': #7db1d8,
+        'danube-dark': #609fd0,
+        'boston-blue': #408dc6,
+        'regent-st-blue': #9dc4e2,
+        'mariner': #2079bd,
+        'spindle': #bbd6eb,
     )
 );

@@ -18,212 +18,74 @@ import team19 from '../../public/assets/img/about-us/about-us-4/team/team-5.jpg'
 const teamMembersData: TeamMember[] = [
   {
     id: 1,
-    since: "Since 2009",
-    name: "Logan Dang",
-    position: "CEO Founder",
+    name: "Personal Care",
+    position: "Elegant labels for skincare, cosmetics, and beauty products.",
     image: team1,
-    link: "/team-details-light"
+    link: "/brand-showcase-light"
   },
   {
     id: 2,
-    since: "Since 2004",
-    name: "Rahat Chowhury",
-    position: "Web Designer",
+    name: "Home Care",
+    position: "Chemical-resistant labels for detergents and household products.",
     image: team2,
-    link: "/team-details-light",
+    link: "/brand-showcase-light",
   },
   {
     id: 3,
-    since: "Since 2012",
-    name: "Thomas Finlan",
-    position: "Marketing Director",
+    name: "Food & Beverage",
+    position: "Waterproof, oil-resistant, and temperature-proof labels.",
     image: team3,
-    link: "/team-details-light",
+    link: "/brand-showcase-light",
   },
   {
     id: 4,
-    since: "Since 2010",
-    name: "Shagor Mahmud",
-    position: "UI/UX Designer",
+    name: "Chemicals & Lubricants",
+    position: "High-strength labels that withstand harsh environments.",
     image: team4,
-    link: "/team-details-light",
+    link: "/brand-showcase-light",
   },
   {
     id: 5,
-    since: "Since 2016",
-    name: "Billy Craft",
-    position: "Motion Designer",
+    name: "Cargo & Logistics",
+    position: "Barcode, QR, and tracking labels for supply chain and shipping.",
     image: team2,
-    link: "/team-details-light",
+    link: "/brand-showcase-light",
   },
-  //team data
   {
     id: 6,
-    name: "Ethan Roberts",
-    position: "Marketing Leader",
+    name: "Promotional Labels",
+    position: "Custom stickers for marketing events and branding.",
     image: team5,
-    link: "/team-details-light",
-    socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#"
-    }
+    link: "/brand-showcase-light",
   },
   {
     id: 7,
-    name: "Alex Jamie",
-    position: "Marketing Leader",
+    name: "Holographic Labels",
+    position: "Premium visual effects with tamper-evident features.",
     image: team6,
-    link: "/team-details-light",
-    socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#"
-    }
+    link: "/brand-showcase-light",
   },
   {
     id: 8,
-    name: "Taylor Same",
-    position: "Marketing Leader",
+    name: "Security Labels",
+    position: "Anti-counterfeit solutions for brand protection.",
     image: team7,
-    link: "/team-details-light",
-    socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#"
-    }
+    link: "/brand-showcase-light",
   },
   {
     id: 9,
-    name: "Yoyo Casey",
-    position: "Marketing Leader",
+    name: "Healthcare & Pharmaceuticals",
+    position: "Clear, accurate, and compliant labeling.",
     image: team8,
-    link: "/team-details-light",
-    socialLinks: {
-      facebook: "#",
-      twitter: "#",
-      linkedin: "#"
-    }
+    link: "/brand-showcase-light",
   },
-  //home-6 creative agency light data start
   {
     id: 10,
-    name: "Andrew",
-    position: "Developer",
-    image: "/assets/img/home-06/team/team-1.jpg",
-    className: "studio-team-thumb-1",
-    colClass: "col-md-6 col-sm-6",
-    wrapClass: "mt-160",
-    mbClass: "mb-120",
-    link: "/team-details-light",
-  },
-  {
-    id: 11,
-    name: "Sophia",
-    position: "Developer",
-    image: "/assets/img/home-06/team/team-2.jpg",
-    className: "studio-team-thumb-3",
-    colClass: "col-md-6 col-sm-6",
-    wrapClass: "text-xl-end",
-    mbClass: "mb-120",
-    link: "/team-details-light",
-  },
-  {
-    id: 12,
-    name: "Emma",
-    position: "Developer",
-    image: "/assets/img/home-06/team/team-3.jpg",
-    className: "studio-team-thumb-2",
-    colClass: "col-md-6 col-sm-6",
-    wrapClass: "mt-160",
-    mbClass: "mb-120",
-    link: "/team-details-light",
-  },
-  {
-    id: 13,
-    name: "James",
-    position: "Developer",
-    image: "/assets/img/home-06/team/team-4.jpg",
-    className: "studio-team-thumb-4",
-    colClass: "col-md-6 col-sm-6",
-    wrapClass: "text-xl-end",
-    mbClass: "mb-120",
-    link: "/team-details-light",
-  },
-  {
-    id: 14,
-    name: "Oliver",
-    position: "Developer",
-    image: "/assets/img/home-06/team/team-5.jpg",
-    className: "studio-team-thumb-1",
-    colClass: "col-md-6 col-sm-6",
-    wrapClass: "mt-160",
-    mbClass: "mb-120",
-    link: "/team-details-light",
-  },
-  {
-    id: 15,
-    name: "Charlotte",
-    position: "Developer",
-    image: "/assets/img/home-06/team/team-6.jpg",
-    className: "studio-team-thumb-3",
-    colClass: "col-md-6 col-sm-6",
-    wrapClass: "text-xl-end",
-    mbClass: "mb-120",
-    link: "/team-details-light",
-  },
-  //home-6 creative agency light data end
-  //about us inner page team data
-  {
-    id: 16,
-    image: team15,
-    name: 'Andrew',
-    position: 'Developer',
-    link: '/team-details-light'
-  },
-  {
-    id: 17,
-    image: team16,
-    name: 'Sophia',
-    position: 'Developer',
-    link: '/team-details-light'
-  },
-  {
-    id: 18,
-    image: team17,
-    name: 'Emma',
-    position: 'Developer',
-    link: '/team-details-light'
-  },
-  {
-    id: 19,
-    image: team18,
-    name: 'James',
-    position: 'Developer',
-    link: '/team-details-light'
-  },
-  {
-    id: 20,
-    image: team19,
-    name: 'Oliver',
-    position: 'Developer',
-    link: '/team-details-light'
-  },
-  {
-    id: 21,
-    image: team16,
-    name: 'Sophia',
-    position: 'Developer',
-    link: '/team-details-light'
-  },
-  {
-    id: 22,
-    image: team17,
-    name: 'Emma',
-    position: 'Developer',
-    link: '/team-details-light'
+    name: "Barcode Labels",
+    position: "Precision printing ensuring seamless scanning.",
+    image: team5,
+    link: "/brand-showcase-light",
   }
-  //about us inner page team data end
 ];
 
 export default teamMembersData;

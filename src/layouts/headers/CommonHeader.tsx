@@ -6,6 +6,10 @@ import MobileOffcanvas from '@/components/offcanvas/MobileOffcanvas';
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import gsap from 'gsap';
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+
+gsap.registerPlugin(ScrollToPlugin);
 
 const CommonHeader = ({ spacingCls = "mt-40" }) => {
     const [openOffCanvas, setOpenOffCanvas] = useState(false);
@@ -14,6 +18,15 @@ const CommonHeader = ({ spacingCls = "mt-40" }) => {
     const useDarkLogo = typeof spacingCls === 'string' && spacingCls.indexOf('header-black-style') !== -1;
     const logoSrc = useDarkLogo ? logoBlack : logoWhite;
 
+    const handleLogoClick = (e: React.MouseEvent) => {
+        // Only prevent default and smooth scroll if already on home page
+        if (typeof window !== 'undefined' && window.location.pathname === '/') {
+            e.preventDefault();
+            gsap.to(window, { duration: 1, scrollTo: 0 });
+        }
+        // Otherwise, allow normal navigation to home page
+    };
+
     return (
         <>
             <div className={`tp-header-2-area z-index-3 ${spacingCls}`}>
@@ -21,7 +34,7 @@ const CommonHeader = ({ spacingCls = "mt-40" }) => {
                     <div className="row align-items-center">
                         <div className="col-6">
                             <div className="tp-header-logo">
-                                <Link href="/">
+                                <Link href="/" onClick={handleLogoClick}>
                                         <Image width={140} src={logoSrc} alt="logo" />
                                     </Link>
                             </div>

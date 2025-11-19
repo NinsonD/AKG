@@ -20,14 +20,12 @@ const ContactUsHero = () => {
                         <div className="col-xl-12">
                             <div className="tp-contact-us-heading tp_fade_anim" data-delay=".3">
                                 <div className="ar-about-us-4-title-box d-flex align-items-center mb-20">
-                                    <span className="tp-section-subtitle pre tp_fade_anim">contact us</span>
+                                    <span className="tp-section-subtitle pre tp_fade_anim">Let\'s Work Together</span>
                                     <div className="ar-about-us-4-icon">
                                         <ArrowTwenty />
                                     </div>
                                 </div>
-                                <h3 className="tp-career-title pb-30">Your creative{" "}
-                                    <span className="shape-1"><Image src={shape} alt="shape" /></span> <br />journey starts here
-                                </h3>
+                                <h3 className="tp-career-title pb-30">Let\'s Work Together</h3>
                             </div>
                         </div>
                     </div>
@@ -35,7 +33,7 @@ const ContactUsHero = () => {
                         <div className="col-lg-4"></div>
                         <div className="col-lg-8">
                             <div className="tp-faq-text tp_fade_anim">
-                                <p className="m-0">Agntix is a beacon of best innovation and the dynamic <br /> parent a company of wealcoder and many other subsidiaries.</p>
+                                <p className="m-0">Reach out to us for inquiries, label requirements, or to request a custom quotation.<br />Email: info@arkpackaging.com | Phone: +971 XXXXXXXXX | Address: UAE<br />Working Hours: Saturday – Thursday: 9 AM – 6 PM</p>
                             </div>
                         </div>
                     </div>

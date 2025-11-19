@@ -1,7 +1,7 @@
 import aboutThumb1 from '../../../public/assets/img/about-us/about-us-thumb-1.jpg';
 import aboutThumb2 from '../../../public/assets/img/about-us/about-us-thumb-2.jpg';
-import aboutThumb3 from '../../../public/assets/img/about-us/about-us-thumb-4.png';
-import aboutUsThumb from '../../../public/assets/img/about-us/about-us-thumb-3.png';
+import aboutThumb3 from '../../../public/assets/img/about-us/about-us-thumb-4.jpg';
+import aboutUsThumb from '../../../public/assets/img/about-us/about-us-thumb-3.jpg';
 import { CrpIcon } from '@/svg/ServiesIcons';
 import { ArrowSvg } from '@/svg';
 import Image from 'next/image';
@@ -26,11 +26,11 @@ const AboutModernSuccess: React.FC<IAboutModernSuccess> = ({ bgColor = "#1B1B1D"
                                         <div className="crp-about-us-item-icon">
                                             <span><CrpIcon /></span>
                                         </div>
-                                        <h4 className="crp-about-us-item-title">Unique and <br />
-                                            New Business Tips</h4>
+                                        <h4 className="crp-about-us-item-title text-black">In-house Artwork<br />
+and Plate Processing</h4>
                                         <div className="crp-about-us-item-btn-box">
-                                            <span>42k people</span>
-                                            <Link href="#"><span>Explore <ArrowSvg /></span></Link>
+                                            <span>UAE Based</span>
+                                            <Link href="#"><span>Learn More <ArrowSvg /></span></Link>
                                         </div>
                                     </div>
                                 </div>

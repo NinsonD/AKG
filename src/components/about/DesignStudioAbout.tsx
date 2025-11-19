@@ -9,10 +9,9 @@ const DesignStudioAbout = () => {
                     <div className="col-xl-12">
                         <div className="des-about-text text-center">
                             <p className="tp_text_invert_3 mb-45">
-                                With over 10 years of experience as a versatile Front-End and Full-Stack
-                                Developer, I excel in crafting a wide range of solutions, from dynamic web
-                                applications and interactive configurators to robust backend automation
-                                software, ensuring innovative and effective outcomes for any project.
+                               At A R K Packaging Industries L.L.C., we specialize in producing durable, vibrant,
+                               and accurate labels that enhance your product’s appearance and performance. With in-house design, prepress, 
+                               and 24/7 production, we ensure every label meets the highest standards of quality and consistency.
                             </p>
                             <Link className="tp-btn-border" href="/about-modern-light">
                                 More About Us

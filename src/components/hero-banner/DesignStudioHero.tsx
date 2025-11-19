@@ -1,13 +1,13 @@
 "use client"
 import heroBg from "../../../public/assets/img/home-02/hero/hero-bg.jpg";
 import avaterImg from "../../../public/assets/img/home-02/hero/avater.png";
-import heroImg1 from "../../../public/assets/img/home-02/hero/hero-1.jpg";
-import heroImg2 from "../../../public/assets/img/home-02/hero/hero-2.jpg";
+import heroImg1 from "../../../public/assets/img/home-02/hero/hero-1.png";
+import heroImg2 from "../../../public/assets/img/home-02/hero/hero-1.png";
 import heroImg3 from "../../../public/assets/img/home-02/hero/hero-3.png";
-import heroImg4 from "../../../public/assets/img/home-02/hero/hero-4.jpg";
-import heroImg5 from "../../../public/assets/img/home-02/hero/hero-5.jpg";
-import heroImg6 from "../../../public/assets/img/home-02/hero/hero-6.jpg";
-import heroImg7 from "../../../public/assets/img/home-02/hero/hero-7.jpg";
+import heroImg4 from "../../../public/assets/img/home-02/hero/hero-1.png";
+import heroImg5 from "../../../public/assets/img/home-02/hero/hero-1.png";
+import heroImg6 from "../../../public/assets/img/home-02/hero/hero-1.png";
+import heroImg7 from "../../../public/assets/img/home-02/hero/hero-1.png";
 import { ArrowTwentyEight } from "@/svg/ArrowIcons";
 import Image from "next/image";
 import Link from "next/link";
@@ -44,11 +44,10 @@ const DesignStudioHero = () => {
             <div className="tp-hero-2-area include-bg pt-180 pb-160" style={{ backgroundImage: `url(${heroBg.src})` }}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-12">
+                        <div className="col-xl-12"> 
                             <div className="tp-hero-2-content text-center mb-25">
-                                <span className="tp-hero-2-subtitle tp_fade_anim" data-delay=".3">Best-in-class local <br /> benefits for everyone,
-                                    everywhere</span>
-                                <h1 className="tp-hero-2-title tp_fade_anim" data-delay=".5">Design Agency</h1>
+                                <span className="tp-hero-2-subtitle tp_fade_anim" data-delay=".3">Premium Labels &<br />Packaging for Every Industry</span>
+                                <h1 className="tp-hero-2-title tp_fade_anim" data-delay=".5">ARK PACKAGING</h1>
                             </div>
                         </div>
                     </div>
@@ -66,8 +65,8 @@ const DesignStudioHero = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="tp-hero-2-btn-box tp-light-bg-btn text-center text-md-end tp_fade_anim" data-delay=".7" data-on-scroll="3">
-                                <Link className="tp-btn-border" href="/portfolio-details-creative-slider-light">
-                                    Explore Our Projects {" "}
+                                <Link className="tp-btn-border" href="/about-modern-light">
+                                    Explore More {" "}
                                     <span><ArrowTwentyEight /></span>
                                 </Link>
                             </div>

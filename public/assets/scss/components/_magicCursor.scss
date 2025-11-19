@@ -60,6 +60,15 @@ body.tp-magic-cursor #magic-cursor {
 	}
 }
 
+.cursor-bg-blue{
+	#ball{
+		background-color: #0267b3 !important;
+	}
+	#ball .ball-view {
+		color: var(--tp-common-white);
+	}
+}
+
 .cursor-white-bg{
 	#ball .ball-view {
 		color: var(--tp-common-black);

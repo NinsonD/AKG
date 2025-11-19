@@ -2,15 +2,15 @@ import AnimatedCounterTwo from './AnimatedCounterTwo';
 const stats = [
     {
         id: 1,
-        value: 120,
+        value: 1200,
         suffix: "+",
         duration: 1,
         tagline: "[ Nice! ]",
-        title: "Projects Completed"
+        title: "Successful Print Jobs"
     },
     {
         id: 2,
-        value: 16,
+        value: 12,
         suffix: "+",
         duration: 1,
         tagline: "[ Holy Moly! ]",
@@ -18,11 +18,19 @@ const stats = [
     },
     {
         id: 3,
-        value: 185,
+        value: 155,
         suffix: "%",
         duration: 1,
         tagline: "[ Ho Ho! ]",
-        title: "Growing Agency"
+        title: "Year-on-Year Growth"
+    },
+    {
+        id: 4,
+        value: 24,
+        suffix: "/7",
+        duration: 1,
+        tagline: "[ AnyTime! ]",
+        title: "Production Capability"
     }
 ];
 
@@ -45,10 +53,9 @@ const ProjectCounter = ({ spacingCls = "pt-140" }) => {
                     <div className="col-xxl-6 col-xl-7">
                         <div className="des-project-top-text">
                             <p>
-                                We are a team of passionate and crazy individuals dedicated to bringing
-                                your ideas to life. With a keen eye for aesthetics, attention to detail, & a
-                                deep understanding of design principles, we strive to deliver exceptional
-                                results that exceed your expectations!
+                             We are committed to delivering high-precision, 
+                             high-quality labeling solutions backed by modern technology, 
+                             skilled expertise, and years of industry experience.
                             </p>
                         </div>
                     </div>

@@ -14,12 +14,12 @@ const BrandShowcaseHero = () => {
                         <div className="col-xl-12">
                             <div className="ar-hero-title-box tp_fade_anim" data-delay=".3">
                                 <div className="ar-about-us-4-title-box d-flex align-items-center mb-20">
-                                    <span className="tp-section-subtitle pre tp_fade_anim">Brand</span>
+                                    <span className="tp-section-subtitle pre tp_fade_anim">Gallery</span>
                                     <div className="ar-about-us-4-icon">
                                         <ArrowTwenty />
                                     </div>
-                                </div>
-                                <h3 className="tp-career-title pb-30">Our Sponsors</h3>
+                                </div>  
+                                <h3 className="tp-career-title pb-30">A Glimpse of<br />Our Work</h3>
                             </div>
                         </div>
                     </div>
@@ -28,8 +28,7 @@ const BrandShowcaseHero = () => {
                         <div className="col-lg-8">
                             <div className="tp-faq-text tp_fade_anim" data-delay=".5">
                                 <p className="m-0">
-                                    Agntix is a beacon of best innovation and the <br /> dynamic parent a company of wealcoder and many <br />
-                                    other subsidiaries.
+                                   Explore a curated selection of our label and packaging projects spanning multiple industries and styles. Each project reflects our attention to detail, print accuracy, and commitment to quality.
                                 </p>
                             </div>
                         </div>

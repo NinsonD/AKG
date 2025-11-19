@@ -14,7 +14,7 @@ const MovingText: React.FC<{ position: "top" | "bottom"; text: string }> = ({
 );
 
 const DesignStudioTextArea: React.FC = () => {
-  const text = "Digital Experience";
+  const text = "Premium Label Printing";
 
   return (
     <div className="des-text-moving-area black-bg-4 pt-100 pb-160">

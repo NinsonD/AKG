@@ -35,7 +35,7 @@ const headerMenuData: MenuItem[] = [
   {
     id: 4,
     title: "Contact Us",
-    link: "/contact-us-light",
+    link: "/contact",
     active: false,
     hasDropdown: false,
     pluseIncon: false,

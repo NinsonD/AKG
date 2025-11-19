@@ -3,7 +3,7 @@ import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvi
 import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper';
 import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
 import BrandShowcaseHero from '@/components/hero-banner/BrandShowcaseHero';
-import CreativeAgencyFooter from '@/layouts/footers/CreativeAgencyFooter';
+import DesignStudioFooter from '@/layouts/footers/DesignStudioFooter';
 import BrandShowcaseBrand from '@/components/brand/BrandShowcaseBrand';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import CommonHeader from '@/layouts/headers/CommonHeader';
@@ -14,7 +14,7 @@ const PortfolioColTwoMain = () => {
         <ScrollSmoothProvider>
             <CursorAndBackgroundProvider bgColor='#fff'>
                 <AnimationWrapper>
-                    <div id="magic-cursor" className='cursor-bg-red-2'>
+                    <div id="magic-cursor" className="cursor-bg-blue">
                         <div id="ball"></div>
                     </div>
                     {/* Global Components */}
@@ -27,7 +27,7 @@ const PortfolioColTwoMain = () => {
                                 <BrandShowcaseHero />
                                 <BrandShowcaseBrand />
                             </main>
-                            <CreativeAgencyFooter bgColor="#1b1b1d" />
+                            <DesignStudioFooter />
                         </div>
                     </div>
                 </AnimationWrapper>

@@ -7,33 +7,14 @@ import Link from "next/link";
 const ContactUsArea = () => {
   const contactData = [
     {
-      title: "San Francisco",
+      title: "UAE (Head Office)",
       img: thumb1,
-      email: "sydney@contact.com",
-      phone: "(+91) 76001726",
+      email: "info@arkpackaging.com",
+      phone: "+971 XXXXXXXXX",
       mapLink: "https://www.google.com/maps",
       btnClass: "tp-btn-yellow-green w-100",
       speed: "1.2",
-    },
-    {
-      title: "Germany",
-      img: thumb2,
-      email: "sydney@contact.com",
-      phone: "(+91) 76001726",
-      mapLink: "https://www.google.com/maps",
-      btnClass: "tp-btn-yellow-green active w-100",
-      speed: ".9",
-      extraClass: "mt-60",
-    },
-    {
-      title: "New Zealand",
-      img: thumb3,
-      email: "sydney@contact.com",
-      phone: "(+91) 76001726",
-      mapLink: "https://www.google.com/maps",
-      btnClass: "tp-btn-yellow-green w-100",
-      speed: "1.2",
-    },
+    }
   ];
 
   return (
@@ -43,8 +24,7 @@ const ContactUsArea = () => {
           {contactData.map((item, index) => (
             <div key={index} className="col-xl-4 col-lg-4 col-md-6 mb-30">
               <div
-                className={`tp-contact-us-content text-center ${item.extraClass || ""
-                  }`}
+                className="tp-contact-us-content text-center"
                 data-speed={item.speed}
               >
                 <div className="tp-contact-us-thumb d-flex justify-content-center">

@@ -19,9 +19,9 @@ const AboutModernHero = ({ heroTitle = "Our Studio" }) => {
                         <div className="col-xl-12">
                             <div className="tp-hero-2-content text-center mb-25">
                                 <span className="tp-hero-2-subtitle tp_fade_anim" data-delay=".3">
-                                    Best-in-class local <br /> benefits for everyone, everywhere
+                                    Dedicated to precision label printing and sustainable packaging solutions
                                 </span>
-                                <h1 ref={headingRef} className="tp-hero-2-title about-us tp_fade_anim text-scale-anim" data-delay=".5">{heroTitle}</h1>
+                                <h1 ref={headingRef} className="tp-hero-2-title about-us tp_fade_anim text-scale-anim" data-delay=".5">About ARK</h1>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ const AboutModernHero = ({ heroTitle = "Our Studio" }) => {
                         </div>
                         <div className="col-md-6">
                             <div className="tp-hero-2-btn-box tp-light-bg-btn text-center text-md-end tp_fade_anim" data-delay=".7">
-                                <Link className="tp-btn-border" href="/portfolio-details-creative-slider-light">
+                                <Link className="tp-btn-border" href="/brand-showcase-light">
                                     Explore Our Projects {" "}
                                     <span>
                                         <ArrowTwentyEight />

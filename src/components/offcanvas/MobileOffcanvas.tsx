@@ -79,16 +79,16 @@ const MobileOffcanvas: React.FC<IProps> = (
                         <h4 className="tp-offcanvas-2-right-info-title">Get In Touch</h4>
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-10">Phone</label>
-                            <Link className="tp-line-white" href="tel:42345678910">+4 (234) 567 8910</Link>
+                            <Link className="tp-line-white" href="tel:42345678910">+971 55 158 6099</Link>
                         </div>
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-10">Email</label>
-                            <Link className="tp-line-white" href="mailto:hello@gmail.com">hello@gmail.com</Link>
+                            <Link className="tp-line-white" href="mailto:hello@gmail.com">info@arkpackindustires.com</Link>
                         </div>
                         <div className="tp-offcanvas-2-right-info-item">
                             <label className="mb-10">Address</label>
-                            <Link className="tp-line-white" href="https://www.google.com.bd/maps/@23.7806365,90.4193257,12z?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
-                                602 Elgin St. Celina, Delaware <br /> 1009
+                            <Link className="tp-line-white" href="https://www.google.com.bd/maps/place/A+R+K+PACKAGING+INDUSTRIES+LLC/@25.5504179,55.7321423,17z/data=!3m1!4b1!4m6!3m5!1s0x3ef5e50055cecfdf:0xf9c3b27933c56489!8m2!3d25.5504179!4d55.7321423!16s%2Fg%2F11mly4vpyk?entry=ttu&g_ep=EgoyMDI1MTExMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                WH-03, Umm Al Dearra, New Modern Industrial Area, <br /> Umm Al Quwain, UAE.
                             </Link>
                         </div>
                         <div className="tp-offcanvas-2-right-info-item">

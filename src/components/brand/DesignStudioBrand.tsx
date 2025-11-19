@@ -19,7 +19,7 @@ const DesignStudioBrand = () => {
                 <div className="row">
                     <div className="col-xl-6">
                         <div className="des-brand-title-box mb-40">
-                            <h3 className="tp-section-title-mango mb-0">Collaborators</h3>
+                            <h3 className="tp-section-title-mango mb-0">Brands</h3>
                         </div>
                     </div>
                 </div>

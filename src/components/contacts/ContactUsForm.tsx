@@ -23,7 +23,7 @@ const ContactUsForm = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="tp-contact-us-wrap">
-                                <h4 className="tp-contact-us-title mb-55">Send a Message</h4>
+                                <h4 className="tp-contact-us-title mb-55">Get in Touch / Request a Quote</h4>
                                 <form id="contact-form" onSubmit={handleSubmit}>
                                     <div className="row">
                                         <div className="col-lg-6">
@@ -34,20 +34,43 @@ const ContactUsForm = () => {
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="tp-contact-form-input mb-20">
+                                                <label>Company*</label>
+                                                <input name="company" type="text" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="tp-contact-form-input mb-20">
                                                 <label>Email address*</label>
                                                 <input name="email" type="email" />
                                             </div>
                                         </div>
-                                        <div className="col-lg-12">
+                                        <div className="col-lg-6">
                                             <div className="tp-contact-form-input mb-20">
-                                                <label>Website link</label>
-                                                <input name="subject" type="text" />
+                                                <label>Phone*</label>
+                                                <input name="phone" type="tel" />
                                             </div>
                                         </div>
                                         <div className="col-lg-12">
                                             <div className="tp-contact-form-input mb-20">
-                                                <label>How Can We Help You*
-                                                </label>
+                                                <label>Label Type*</label>
+                                                <input name="label_type" type="text" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="tp-contact-form-input mb-20">
+                                                <label>Quantity (Approx.)*</label>
+                                                <input name="quantity" type="text" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="tp-contact-form-input mb-20">
+                                                <label>File Upload</label>
+                                                <input name="file" type="file" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-12">
+                                            <div className="tp-contact-form-input mb-20">
+                                                <label>Message*</label>
                                                 <textarea name="message"></textarea>
                                             </div>
                                             <div className="tp-contact-form-btn">

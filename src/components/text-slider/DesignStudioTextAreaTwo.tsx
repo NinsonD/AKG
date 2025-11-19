@@ -11,31 +11,38 @@ const DesignStudioTextAreaTwo = ({ spacingCls = "pt-200" }) => {
     const services = [
         {
             id: 1,
-            title: "Product Design",
+            title: "In-House Production",
             shape: shape1,
             colorClass: "gradient-bulet",
             repeatCount: 4
         },
         {
             id: 2,
-            title: "Brand Design",
+            title: "24/7 Operations",
             shape: shape2,
             colorClass: "paste-bulet",
             repeatCount: 4
         },
         {
             id: 3,
-            title: "Motion Design",
+            title: "Advanced Technology",
             shape: shape3,
             colorClass: "yellow-bulet",
             repeatCount: 4
         },
         {
             id: 4,
-            title: "Web Development",
+            title: "Strict Quality Control",
             shape: shape4,
             colorClass: "pink-bulet",
             repeatCount: 3
+        },
+        {
+            id: 5,
+            title: "Fast & Reliable Delivery",
+            shape: shape1,
+            colorClass: "gradient-bulet",
+            repeatCount: 4
         }
     ];
 
@@ -45,11 +52,9 @@ const DesignStudioTextAreaTwo = ({ spacingCls = "pt-200" }) => {
                 <div className="des-text-moving-wrap">
                     <div className="des-text-title-box text-center">
                         <div className="des-text-title-wrap">
-                            <h4 className="des-text-title">We can help you with</h4>
+                            <h4 className="des-text-title">Why Choose Us</h4>
                         </div>
-                        <p>Check out some of my projects by area of expertise</p>
                     </div>
-
                     {services.map((service, index) => (
                         <React.Fragment key={service.id}>
                             <div className="des-text-moving-top active moving-text">
@@ -68,7 +73,7 @@ const DesignStudioTextAreaTwo = ({ spacingCls = "pt-200" }) => {
                             {index < services.length - 1 && (
                                 <div className="des-text-title-box text-center">
                                     <div className="des-text-title-wrap">
-                                        <h4 className="des-text-title sm">Click to view Services</h4>
+                                        <h4 className="des-text-title">Why Choose Us</h4>
                                     </div>
                                 </div>
                             )}

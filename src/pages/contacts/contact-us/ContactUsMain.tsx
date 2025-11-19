@@ -2,7 +2,7 @@
 import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
 import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
 import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper';
-import CreativeAgencyFooter from '@/layouts/footers/CreativeAgencyFooter';
+import DesignStudioFooter from '@/layouts/footers/DesignStudioFooter';
 import ContactUsForm from '@/components/contacts/ContactUsForm';
 import ContactUsAbout from '@/components/about/ContactUsAbout';
 import ContactUsArea from '@/components/contacts/ContactUsArea';
@@ -30,7 +30,7 @@ const ContactUsMain = () => {
                                 <ContactUsAbout />
                                 <ContactUsArea />
                             </main>
-                            <CreativeAgencyFooter bgColor="#1B1B1D" />
+                            <DesignStudioFooter />
                         </div>
                     </div>
                 </AnimationWrapper>

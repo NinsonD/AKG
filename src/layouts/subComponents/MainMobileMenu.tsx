@@ -50,7 +50,7 @@ const MainMobileMenu = () => {
                             <div className="tp-megamenu-wrapper mega-menu megamenu-white-bg" style={{ display: `${activeMenu === menuItem.id ? 'block' : 'none'}` }}>
                                 <div className="row gx-0">
                                     {menuItem.columns?.map((column, colIndex) => (
-                                        <div key={colIndex} className={menuItem.image ? "col-xl-2" : "col-xl-3"}>
+                                        <div key={colIndex} className={(menuItem as any).image ? "col-xl-2" : "col-xl-3"}>
                                             <div className="tp-megamenu-list">
                                                 <h4 className="tp-megamenu-title">{column.title}</h4>
                                                 <ul>
@@ -58,9 +58,9 @@ const MainMobileMenu = () => {
                                                         <li key={linkIndex}>
                                                             <Link href={link.link}>
                                                                 {link.title}
-                                                                {link.badge && (
-                                                                    <span className={getTagClass(link.badge)}>
-                                                                        {link.badge}
+                                                                {(link as any).badge && (
+                                                                    <span className={getTagClass((link as any).badge)}>
+                                                                        {(link as any).badge}
                                                                     </span>
                                                                 )}
                                                             </Link>
@@ -71,11 +71,11 @@ const MainMobileMenu = () => {
                                         </div>
                                     ))}
 
-                                    {menuItem.image && (
+                                    {(menuItem as any).image && (
                                         <div className="col-xl-2">
                                             <div className="tp-megamenu-list">
                                                 <div className="tp-megamenu-thumb">
-                                                    <Image src={menuItem.image.src} alt={menuItem.image.alt} />
+                                                    <Image src={(menuItem as any).image.src} alt={(menuItem as any).image.alt} />
                                                 </div>
                                             </div>
                                         </div>
@@ -84,7 +84,7 @@ const MainMobileMenu = () => {
                             </div>
                         ) : (
                             <ul className="tp-submenu submenu" style={{ display: `${activeMenu === menuItem.id ? 'block' : 'none'}` }}>
-                                {menuItem.submenu?.map((subItem, subIndex) => (
+                                {(menuItem as any).submenu?.map((subItem: any, subIndex: number) => (
                                     <li key={subIndex} className={subItem.submenu ? `menu-item-has-children ${activeSubmenu === subIndex ? 'active' : ''}` : ""}>
                                         <Link href={subItem.link} onClick={(e) => {
                                             if (subItem.submenu) {
@@ -98,7 +98,7 @@ const MainMobileMenu = () => {
                                         {subItem.submenu && (
                                             <>
                                                 <ul className="tp-submenu submenu" style={{ display: `${activeSubmenu === subIndex ? 'block' : 'none'}` }}>
-                                                    {subItem.submenu.map((nestedItem, nestedIndex) => (
+                                                    {subItem.submenu.map((nestedItem: any, nestedIndex: number) => (
                                                         <li key={nestedIndex}>
                                                             <Link href={nestedItem.link}>{nestedItem.title}</Link>
                                                         </li>

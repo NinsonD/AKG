@@ -20,6 +20,10 @@ import showcase_3 from '../../public/assets/img/webgl/webgl-3.jpg';
 import showcase_4 from '../../public/assets/img/webgl/webgl-4.jpg';
 import showcase_5 from '../../public/assets/img/webgl/webgl-5.jpg';
 import showcase_6 from '../../public/assets/img/webgl/webgl-6.jpg';
+import showcase_7 from '../../public/assets/img/webgl/webgl-7.jpg';
+import showcase_8 from '../../public/assets/img/webgl/webgl-8.jpg';
+import showcase_9 from '../../public/assets/img/webgl/webgl-9.jpg';
+import showcase_10 from '../../public/assets/img/webgl/webgl-10.jpg';
 
 // Skew slider images
 import skewImage1 from '../../public/assets/img/slider-img/skew-1.jpg';
@@ -119,20 +123,24 @@ export const portfolioThumbSliderItems: PortfolioItem[] = [
 
 // Portfolio WebGL slides data
 export const portfolioWebglSlides = [
-    { id: 0, active: true, title: "Top Paddock" },
-    { id: 1, active: false, title: "Stickers Pack" },
-    { id: 2, active: false, title: "Diseno Grafico" },
-    { id: 3, active: false, title: "Bright Cap" },
-    { id: 4, active: false, title: "Grafico Jan" },
-    { id: 5, active: false, title: "Bright Cap" }
+    { id: 1, active: false, title: "Personal Care" },
+    { id: 2, active: false, title: "Home Care" },
+    { id: 3, active: false, title: "Food & Beverage" },
+    { id: 4, active: false, title: "Chemicals & Lubricants" },
+    { id: 5, active: false, title: "Cargo & Logistics" },
+    { id: 6, active: false, title: "Promotional Labels" },
+    { id: 7, active: false, title: "Holographic Labels" },
+    { id: 8, active: false, title: "Security Labels" },
+    { id: 9, active: false, title: "Healthcare & Pharmaceuticals" },
+    { id: 10, active: false, title: "Barcode Labels" }
 ].map(item => ({
     ...item,
-    categories: ["UI", "Web Design"],
+    categories: ["Product Solutions"],
     link: "/portfolio-details-classic-stack-light"
 }));
 
 // slider images
-export const sliderImages = [showcase_1, showcase_2, showcase_3, showcase_4, showcase_5, showcase_6];
+export const sliderImages = [showcase_1, showcase_2, showcase_3, showcase_4, showcase_5, showcase_6, showcase_7, showcase_8, showcase_9, showcase_10];
 
 // Portfolio WebGL slides data end
 
@@ -140,34 +148,46 @@ export const sliderImages = [showcase_1, showcase_2, showcase_3, showcase_4, sho
 export const skewSliderData = [
     {
         image: skewImage1,
-        category: 'Digital platform',
-        title: ['simple', 'logistics'],
+        category: 'Core Capabilities',
+        title: ['In-House', 'Plate Processing'],
+        description: 'Ensures accurate print reproduction and sharper output.',
         isSpanInTitle: true
     },
     {
         image: skewImage2,
-        category: 'Digital platform',
-        title: ['Smart', 'platform']
+        category: 'Core Capabilities',
+        title: ['In-House', 'Production'],
+        description: 'A complete factory setup for quick turnaround and controlled operations.'
     },
     {
         image: skewImage3,
-        category: 'Digital platform',
-        title: ['Royal', 'Benz']
+        category: 'Core Capabilities',
+        title: ['Hot-Foil', 'Stamping'],
+        description: 'Metallic gold, silver, and premium effects for luxury labels.'
     },
     {
         image: skewImage4,
-        category: 'Digital platform',
-        title: ['World\'s', 'Relays']
+        category: 'Core Capabilities',
+        title: ['UV Varnish &', 'Embossing'],
+        description: 'Enhanced texture, durability, and visual appeal.'
     },
     {
         image: skewImage5,
-        category: 'Digital platform',
-        title: ['Bright', 'Captive']
+        category: 'Core Capabilities',
+        title: ['Auto-Registration', 'System'],
+        description: 'Guarantees perfect color alignment and high-precision printing.'
     },
     {
         image: skewImage6,
-        category: 'Interactive Mind',
-        title: ['Bright', 'Mind']
+        category: 'Core Capabilities',
+        title: ['Inspection', 'Systems'],
+        description: 'Every product undergoes detailed inspection to ensure zero defects.'
+    },
+    {
+        image: skewImage1,
+        category: 'Core Capabilities',
+        title: ['24-Hour', 'Controlled Environment'],
+        description: 'Air-conditioned and monitored facilities for stable, consistent results.'
     }
 ];
 

@@ -1,11 +1,10 @@
 import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
 import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper'; 
 import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
-import ContactLocationArea from '@/components/contacts/ContactLocationArea';
 import ContactFormArea from '@/components/contacts/ContactFormArea';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
-import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
-import HomeMainFooter from '@/layouts/footers/HomeMainFooter';
+import CommonHeader from '@/layouts/headers/CommonHeader';
+import DesignStudioFooter from '@/layouts/footers/DesignStudioFooter';
 import InnerMapArea from '@/components/contacts/InnerMapArea';
 import ContactHero from '@/components/contacts/ContactHero';
 
@@ -14,13 +13,13 @@ const ContactMain = () => {
         <ScrollSmoothProvider>
             <CursorAndBackgroundProvider bgColor='#fff'>
                 <AnimationWrapper>
-                    <div id="magic-cursor" className="cursor-bg-red-2">
+                    <div id="magic-cursor" className="cursor-bg-blue">
                         <div id="ball"></div>
                     </div>
 
                     {/* Global Components */}
                     <BackToTop />
-                    <InnerPageHeader />
+                    <CommonHeader spacingCls="mt-40 header-black-style" />
 
                     <div id="smooth-wrapper">
                         <div id="smooth-content">
@@ -29,9 +28,8 @@ const ContactMain = () => {
                                 <ContactHero />
                                 <InnerMapArea />
                                 <ContactFormArea />
-                                <ContactLocationArea />
                             </main>
-                            <HomeMainFooter />
+                            <DesignStudioFooter />
                         </div>
                     </div>
                 </AnimationWrapper>

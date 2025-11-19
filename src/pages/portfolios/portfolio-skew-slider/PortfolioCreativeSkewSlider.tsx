@@ -13,7 +13,7 @@ const PortfolioCreativeSkewSlider = () => {
     return (
         <CursorAndBackgroundProvider bgColor='#000'>
             {/* -- Begin magic cursor -- */}
-            <div id="magic-cursor" className="cursor-white-bg">
+            <div id="magic-cursor" className="cursor-bg-blue">
                 <div id="ball"></div>
             </div>
 
@@ -54,7 +54,7 @@ const PortfolioCreativeSkewSlider = () => {
                     {/* Fixed position controls (won't be affected by slide animations) */}
                     <div className="skew-slider-controls">
                         <div className="tp-portfolio-slider__copyright">
-                            <p>Have a project in mind? <Link href="/contact">{`Let's`} Talk.</Link></p>
+                            <p>Need custom labels? <Link href="/contact-us-light">Get in Touch.</Link></p>
                         </div>
 
                         <div className="tp-portfolio-slider__social">

@@ -30,7 +30,7 @@ const menuItemsTwo: MenuItem[] = [
     },
     {
         title: "Contact Us",
-        href: "/contact-us-light",
+        href: "/contact",
         static:false
     }
 ];

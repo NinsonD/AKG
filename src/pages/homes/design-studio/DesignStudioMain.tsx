@@ -18,7 +18,7 @@ const DesignStudioMain = () => {
         <ScrollSmoothProvider>
             <CursorAndBackgroundProvider>
                 <AnimationWrapper>
-                    <div id="magic-cursor">
+                    <div id="magic-cursor" className="cursor-bg-blue">
                         <div id="ball"></div>
                     </div>
                     {/* Global Components */}

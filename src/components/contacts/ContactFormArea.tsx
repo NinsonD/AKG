@@ -52,7 +52,7 @@ const ContactFormArea = () => {
                                             <textarea name="message"></textarea>
                                         </div>
                                         <div className="tp-contact-form-btn">
-                                            <button className="w-100" type="submit">
+                                            <button className="w-100" type="submit" style={{ backgroundColor: '#0267b3' }}>
                                                 <span>
                                                     <span className="text-1">Send Message</span>
                                                     <span className="text-2">Send Message</span>
