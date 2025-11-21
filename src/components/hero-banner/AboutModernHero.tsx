@@ -39,7 +39,7 @@ const AboutModernHero = ({ heroTitle = "Our Studio" }) => {
                         </div>
                         <div className="col-md-6">
                             <div className="tp-hero-2-btn-box tp-light-bg-btn text-center text-md-end tp_fade_anim" data-delay=".7">
-                                <Link className="tp-btn-border" href="/brand-showcase-light">
+                                <Link className="tp-btn-border" href="/gallery">
                                     Explore Our Projects {" "}
                                     <span>
                                         <ArrowTwentyEight />

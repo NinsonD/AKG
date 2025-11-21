@@ -12,6 +12,12 @@ export const useCursorAndBackground = (config: CursorConfig = {}) => {
     // Only run on client side
     if (typeof window === 'undefined') return;
 
+    // Disable custom cursor on mobile/tablet devices (screen width < 768px)
+    const isMobileOrTablet = window.innerWidth < 768;
+    if (isMobileOrTablet) {
+      return;
+    }
+
     // Base cursor class
     document.body.classList.add("tp-magic-cursor");
 

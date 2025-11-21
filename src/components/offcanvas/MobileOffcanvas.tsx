@@ -24,9 +24,9 @@ const MobileOffcanvas: React.FC<IProps> = (
 
     const darkPaths = [
         "/portfolio-wrapper-slider",
-        "/portfolio-webgl-showcase",
+        "/industries",
         "/portfolio-creative-thumb-slider",
-        "/portfolio-creative-skew-slider",
+        "/capabilities",
         "/portfolio-creative-text-slider",
         "/portfolio-parallax-slider",
         "/portfolio-showcase-light",

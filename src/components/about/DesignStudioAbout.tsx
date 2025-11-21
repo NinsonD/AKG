@@ -13,7 +13,7 @@ const DesignStudioAbout = () => {
                                and accurate labels that enhance your product’s appearance and performance. With in-house design, prepress, 
                                and 24/7 production, we ensure every label meets the highest standards of quality and consistency.
                             </p>
-                            <Link className="tp-btn-border" href="/about-modern-light">
+                            <Link className="tp-btn-border" href="/about-us">
                                 More About Us
                                 <span>
                                     <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">

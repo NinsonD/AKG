@@ -92,21 +92,21 @@ const portfolioData: PortfolioDT[] = [
     image: portfolio1,
     categories: ["High-quality labels tailored for food", "Cosmetic", "industrial", "Retail products"],
     title: "Custom Labels",
-    link: "/about-modern-light",
+    link: "/about-us",
   },
   {
     id: 2,
     image: portfolio2,
     categories: ["Holographic", "Security", "Tamper-evident labels designed for brand protection"],
     title: "Specialty Labels",
-    link: "/about-modern-light",
+    link: "/about-us",
   },
   {
     id: 3,
     image: portfolio3,
     categories: ["Barcode", "QR", "Heavy-duty labels engineered for durability"],
     title: "Industrial & Logistics Labels",
-    link: "/about-modern-light",
+    link: "/about-us",
   },
 
   //startup agency portfolio data start

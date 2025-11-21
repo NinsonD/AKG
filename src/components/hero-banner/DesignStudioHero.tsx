@@ -2,12 +2,13 @@
 import heroBg from "../../../public/assets/img/home-02/hero/hero-bg.jpg";
 import avaterImg from "../../../public/assets/img/home-02/hero/avater.png";
 import heroImg1 from "../../../public/assets/img/home-02/hero/hero-1.png";
-import heroImg2 from "../../../public/assets/img/home-02/hero/hero-1.png";
+import heroImg2 from "../../../public/assets/img/home-02/hero/hero-2.png";
 import heroImg3 from "../../../public/assets/img/home-02/hero/hero-3.png";
-import heroImg4 from "../../../public/assets/img/home-02/hero/hero-1.png";
-import heroImg5 from "../../../public/assets/img/home-02/hero/hero-1.png";
-import heroImg6 from "../../../public/assets/img/home-02/hero/hero-1.png";
-import heroImg7 from "../../../public/assets/img/home-02/hero/hero-1.png";
+import heroImg4 from "../../../public/assets/img/home-02/hero/hero-4.png";
+import heroImg5 from "../../../public/assets/img/home-02/hero/hero-5.png";
+import heroImg6 from "../../../public/assets/img/home-02/hero/hero-6.png";
+import heroImg7 from "../../../public/assets/img/home-02/hero/hero-7.png";
+import heroImg8 from "../../../public/assets/img/home-02/hero/hero-8.png";
 import { ArrowTwentyEight } from "@/svg/ArrowIcons";
 import Image from "next/image";
 import Link from "next/link";
@@ -26,14 +27,14 @@ const heroImages = [
         images: [
             { className: "tp-heo-2-img tp-hero-2-img-1", src: heroImg4 },
             { className: "tp-heo-2-img tp-hero-2-img-2 text-end", src: heroImg5 },
-            { className: "tp-heo-2-img tp-hero-2-img-3 text-end", src: heroImg3 },
+            { className: "tp-heo-2-img tp-hero-2-img-3 text-end", src: heroImg6 },
         ],
     },
     {
         boxClass: "last-item",
         images: [
-            { className: "tp-heo-2-img tp-hero-2-img-1", src: heroImg6 },
-            { className: "tp-heo-2-img tp-hero-2-img-2 text-end", src: heroImg7 },
+            { className: "tp-heo-2-img tp-hero-2-img-1", src: heroImg7 },
+            { className: "tp-heo-2-img tp-hero-2-img-2 text-end", src: heroImg8 },
         ],
     },
 ];
@@ -58,14 +59,14 @@ const DesignStudioHero = () => {
                                     <Image src={avaterImg} alt="avater-image" />
                                 </div>
                                 <div className="tp-hero-2-avater-content">
-                                    <h4>2500+</h4>
+                                    <h4>1500+</h4>
                                     <span>Engaged and counting</span>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="tp-hero-2-btn-box tp-light-bg-btn text-center text-md-end tp_fade_anim" data-delay=".7" data-on-scroll="3">
-                                <Link className="tp-btn-border" href="/about-modern-light">
+                                <Link className="tp-btn-border" href="/about-us">
                                     Explore More {" "}
                                     <span><ArrowTwentyEight /></span>
                                 </Link>

@@ -15,7 +15,7 @@ const menuItemsTwo: MenuItem[] = [
     },
     {
         title: "About Us",
-        href: "/about-modern-light",
+        href: "/about-us",
         static:true
     },
     {
@@ -23,9 +23,9 @@ const menuItemsTwo: MenuItem[] = [
         href: "#",
         static:true,
         subItems: [
-            { title: "Industries", href: "/portfolio-webgl-showcase" },
-            { title: "Capabilities", href: "/portfolio-creative-skew-slider" },
-            { title: "Gallery", href: "/brand-showcase-light" }
+            { title: "Industries", href: "/industries" },
+            { title: "Capabilities", href: "/capabilities" },
+            { title: "Gallery", href: "/gallery" }
         ],
     },
     {

@@ -1,6 +1,5 @@
 import { ArrowTwenty } from '@/svg/ArrowIcons';
 import { CareerShapeTwo } from '@/svg/HeroShape';
-import React from 'react';
 
 const BrandShowcaseHero = () => {
     return (

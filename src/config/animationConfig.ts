@@ -82,7 +82,7 @@ export const animationConfig: Record<string, (() => void)[]> = {
     //personal portfolio page
     "/shop-modern": [productBannerAnimation],
     //portfolio webgl showcase page
-    "/portfolio-webgl-showcase": [parallaxSlider],
+    "/industries": [parallaxSlider],
     //portfolio perspective slider page
     "/portfolio-perspective-slider-light": [revalEffectAnimation, perspectiveAnim],
     //portfolio horizontal showcase page
@@ -92,13 +92,13 @@ export const animationConfig: Record<string, (() => void)[]> = {
     //portfolio showcase page
     "/portfolio-showcase-light": [portfolioShowcaseAnimation],
     //portfolio showcase page
-    "/brand-showcase-light": [brandImgAnim],
+    "/gallery": [brandImgAnim],
     //about me page
     "/about-me-light": [setupTextHoverEffect, animationParagraph, PPAboutAnimation],
     //about me page
     "/about-us-light": [funfactPanelAnimation, textBounceAnimation, panelAnimation],
     //about modern page
-    "/about-modern-light": [scrollMovingText],
+    "/about-us": [scrollMovingText],
     //about creative page
     "/about-creative-light": [textRevealAnimation, animationParagraph, scrollMovingText, zoomInAnimation, teamAnimation],
     //about startup page

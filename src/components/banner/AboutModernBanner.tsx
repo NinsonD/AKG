@@ -1,4 +1,4 @@
-import Project1 from '../../../public/assets/img/home-02/project/project-1.jpg';
+import Project1 from '../../../public/assets/img/home-02/project/project-2.jpg';
 import Image from 'next/image';
 
 const AboutModernBanner = () => {

@@ -32,6 +32,7 @@ import skewImage3 from '../../public/assets/img/slider-img/skew-3.jpg';
 import skewImage4 from '../../public/assets/img/slider-img/skew-4.jpg';
 import skewImage5 from '../../public/assets/img/slider-img/skew-5.jpg';
 import skewImage6 from '../../public/assets/img/slider-img/skew-6.jpg';
+import skewImage7 from '../../public/assets/img/slider-img/skew-7.jpg';
 
 // portfolio wrapper slider images
 import port_sm_1 from "../../public/assets/img/portfolio/wrapper-slider/wrapper-sm-1.jpg";
@@ -184,7 +185,7 @@ export const skewSliderData = [
         description: 'Every product undergoes detailed inspection to ensure zero defects.'
     },
     {
-        image: skewImage1,
+        image: skewImage7,
         category: 'Core Capabilities',
         title: ['24-Hour', 'Controlled Environment'],
         description: 'Air-conditioned and monitored facilities for stable, consistent results.'

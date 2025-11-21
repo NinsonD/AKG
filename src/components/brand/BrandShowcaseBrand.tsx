@@ -13,6 +13,16 @@ import brand12 from "../../../public/assets/img/brand/brand-12.jpg";
 import brand13 from "../../../public/assets/img/brand/brand-13.jpg";
 import brand14 from "../../../public/assets/img/brand/brand-14.jpg";
 import brand15 from "../../../public/assets/img/brand/brand-15.jpg";
+import brand16 from "../../../public/assets/img/brand/brand-16.jpg";
+import brand17 from "../../../public/assets/img/brand/brand-17.jpg";
+import brand18 from "../../../public/assets/img/brand/brand-18.jpg";
+import brand19 from "../../../public/assets/img/brand/brand-19.jpg";
+import brand20 from "../../../public/assets/img/brand/brand-20.jpg";
+import brand21 from "../../../public/assets/img/brand/brand-21.jpg";
+import brand22 from "../../../public/assets/img/brand/brand-22.jpg";
+import brand23 from "../../../public/assets/img/brand/brand-23.jpg";
+import brand24 from "../../../public/assets/img/brand/brand-24.jpg";
+import brand25 from "../../../public/assets/img/brand/brand-25.jpg";
 import Image from "next/image";
 
 const brandImages = [
@@ -23,7 +33,12 @@ const brandImages = [
     brand9, brand10,
     brand11, brand12,
     brand13, brand14,
-    brand15
+    brand15, brand16,
+    brand17, brand18,
+    brand19, brand20,
+    brand21, brand22,
+    brand23, brand24,
+    brand25
 ];
 
 const BrandShowcaseBrand = () => {

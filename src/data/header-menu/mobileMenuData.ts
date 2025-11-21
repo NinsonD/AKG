@@ -24,7 +24,7 @@ const mobileMenuData: MenuItem[] = [
     {
         id: 2,
         title: "About Us",
-        link: "/about-modern-light",
+        link: "/about-us",
         megaMenu: false
     },
     {
@@ -36,9 +36,9 @@ const mobileMenuData: MenuItem[] = [
             {
                 title: "Pages",
                 links: [
-                    { title: "Industries", link: "/portfolio-webgl-showcase" },
-                    { title: "Capabilities", link: "/portfolio-creative-skew-slider" },
-                    { title: "Gallery", link: "/brand-showcase-light" }
+                    { title: "Industries", link: "/industries" },
+                    { title: "Capabilities", link: "/capabilities" },
+                    { title: "Gallery", link: "/gallery" }
                 ]
             }
         ]
